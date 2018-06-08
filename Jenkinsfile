@@ -1,4 +1,4 @@
 // Jenkinsfile
-@Library('evenOdd') _
+//@Library('evenOdd') _
 
-evenOrOdd(currentBuild.getNumber())
+evenOdd(currentBuild.getNumber())
