@@ -8,7 +8,7 @@ def call(int buildNumber) {
           steps {
             echo "The build number is even"
             script { 
-              log.info 'Starting even build'
+              log.info 'Starting even build now'
               log.warning 'Nothing to do!'
             }
           }
@@ -23,7 +23,7 @@ def call(int buildNumber) {
           steps {
             echo "The build number is odd"
             script { 
-              log.info 'Starting odd build'
+              log.info 'Starting odd build now'
               log.warning 'Nothing to do!'
             }
           }
